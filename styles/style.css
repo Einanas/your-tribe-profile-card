@@ -177,3 +177,11 @@ body.expand img {
     margin: 1em 2em;
   }
 }
+
+.container {
+  column-count: 3;
+}
+
+.container {
+  ccolum-width: 10em;
+}
