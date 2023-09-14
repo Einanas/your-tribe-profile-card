@@ -171,3 +171,17 @@ body.expand dd {
 body.expand img {
   width: 15em;
 }
+
+@media screen and (mid-width: 80rem) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+
+.container {
+  column-count: 3;
+}
+
+.container {
+  colum-width: 10em;
+}
