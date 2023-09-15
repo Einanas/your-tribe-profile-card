@@ -3,14 +3,14 @@
 }
 
 html {
-  height: 5vh;
+  height: 100vh;
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5vh;
+  height: 100vh;
   font-family: open sans;
   color: #fbd8af;
 }
@@ -20,19 +20,20 @@ body {
 }
 
 article {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  width: 100vw;
-  max-width: 40em;
-  min-width: 15em;
-  border-radius: 20rem;
-  background: #334780(0,239,255);
-  background: linear-gradient(0deg, #ffdfcb 40%, #ce6a6b(4, 73, 90) 100%);
-  box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
-  transition: .35s;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    max-width: 40em;
+    min-width: 15em;
+    border-radius: 20rem;
+    background: rgb(0,239,255);
+    background: linear-gradient(0deg, #ecaf3f 40%, rgb(4, 73, 90) 100%);
+    box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
+    transition: .25s;
+
 }
 
 header {
@@ -41,6 +42,7 @@ header {
   justify-content: center;
   align-items: center;
   justify-content: flex-end;
+  height: 200px;
 }
 
 h1 {
@@ -85,11 +87,12 @@ dl {
   justify-items: center;
   align-items: start;
   width: 100%;
+  border-bottom: 80%;
   margin-top: -3rem;
   margin-bottom: 0;
   padding: 5rem 0 3rem;
   text-align: center;
-  background: rgb(255,255,255);
+  background: #171bd8;
 }
 
 dt {
@@ -120,6 +123,7 @@ dd:nth-of-type(2){
 
 p { 
   margin: 0;
+  color:black;
 }
 
 article > p {
