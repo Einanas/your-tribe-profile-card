@@ -9,8 +9,8 @@ html {
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 140vh;
+  align-items: bottom;
+  height: 100vh;
   font-family: open sans;
   color: #210440;
 }
